@@ -1,0 +1,21 @@
+<?xml version="1.0" ?>
+<Application>
+	<Views>
+		<DetailView ID="AuthenticationStandardLogonParameters_DetailView">
+			<Items>
+				<StaticText ID="PasswordHint" Text="(To log on, leave the Password field empty and type Sam or John in the User Name field)" IsNewNode="True" />
+			</Items>
+			<Layout>
+				<LayoutGroup ID="Main">
+					<LayoutGroup ID="RootGroup">
+						<LayoutGroup ID="EditorsGroup">
+							<LayoutGroup ID="Editors">
+								<LayoutItem ID="PasswordHint" ShowCaption="True" Index="3" IsNewNode="True" />
+							</LayoutGroup>
+						</LayoutGroup>
+					</LayoutGroup>
+				</LayoutGroup>
+			</Layout>
+		</DetailView>
+	</Views>
+</Application>
