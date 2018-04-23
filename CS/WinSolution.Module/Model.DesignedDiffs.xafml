@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Application Title="WinSolution" Logo="ExpressAppLogo">
+  <NavigationItems>
+    <Items>
+      <Item Id="Default" IsNewNode="True" Caption="Default">
+        <Items IsNewNode="True">
+          <Item Id="d26cacd2-a20d-48e5-8860-6f330b8fc789" IsNewNode="True" ViewId="Person_ListView" />
+        </Items>
+      </Item>
+    </Items>
+  </NavigationItems>
+</Application>
